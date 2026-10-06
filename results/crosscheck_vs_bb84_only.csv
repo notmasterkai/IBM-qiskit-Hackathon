@@ -1,0 +1,13 @@
+channel,threat_level,bb84_only,dual_protocol,dual vs bb84_only
+clean,Low,Accept,Accept,same
+clean,Medium,Accept,Accept,same
+clean,High,Accept,Monitor,stricter
+noisy,Low,Accept,Monitor,stricter
+noisy,Medium,Monitor,Monitor,same
+noisy,High,Monitor,Reject,stricter
+weak Eve,Low,Monitor,Monitor,same
+weak Eve,Medium,Monitor,Monitor,same
+weak Eve,High,Reject,Reject,same
+full Eve,Low,Reject,Reject,same
+full Eve,Medium,Reject,Reject,same
+full Eve,High,Reject,Reject,same

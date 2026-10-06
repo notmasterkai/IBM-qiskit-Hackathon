@@ -1,0 +1,13 @@
+channel,noise,f,threat_level,qber,mismatches,sample_size,bb84_verdict,S,S_se,e91_verdict,decision,anomaly
+clean,0.0,0.0,Low,0.0,0,300,Pass,2.7430431497460397,0.07361855270391014,Pass,Accept,False
+clean,0.0,0.0,Medium,0.0,0,300,Pass,2.7430431497460397,0.07361855270391014,Pass,Accept,False
+clean,0.0,0.0,High,0.0,0,300,Pass,2.7430431497460397,0.07361855270391014,Marginal,Monitor,False
+noisy,0.1,0.0,Low,0.05,15,300,Marginal,2.5407897565133144,0.07802485496405391,Marginal,Monitor,False
+noisy,0.1,0.0,Medium,0.05,15,300,Marginal,2.5407897565133144,0.07802485496405391,Marginal,Monitor,False
+noisy,0.1,0.0,High,0.05,15,300,Marginal,2.5407897565133144,0.07802485496405391,Marginal,Reject,False
+weak Eve,0.0,0.3,Low,0.09333333333333334,28,300,Marginal,2.3486634621523623,0.08190025240543863,Marginal,Monitor,False
+weak Eve,0.0,0.3,Medium,0.09333333333333334,28,300,Marginal,2.3486634621523623,0.08190025240543863,Marginal,Monitor,False
+weak Eve,0.0,0.3,High,0.09333333333333334,28,300,Marginal,2.3486634621523623,0.08190025240543863,Marginal,Reject,False
+full Eve,0.0,1.0,Low,0.26,78,300,Fail,1.3236938089145642,0.09534933767345967,Fail,Reject,False
+full Eve,0.0,1.0,Medium,0.26,78,300,Fail,1.3236938089145642,0.09534933767345967,Fail,Reject,False
+full Eve,0.0,1.0,High,0.26,78,300,Fail,1.3236938089145642,0.09534933767345967,Fail,Reject,False

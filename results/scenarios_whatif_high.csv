@@ -1,0 +1,13 @@
+scenario,noise_level,f,threat_level,qber,decision,decision_if_High,qber_pct
+mostly normal + clean,0.0,0.0,Low,0.0,Accept,Accept,0.0
+mostly normal + noisy,0.1,0.0,Low,0.05,Accept,Monitor,5.0
+mostly normal + weak Eve,0.0,0.3,Low,0.09333333333333334,Monitor,Reject,9.33
+mostly normal + full Eve,0.0,1.0,Low,0.26,Reject,Reject,26.0
+mixed + clean,0.0,0.0,Medium,0.0,Accept,Accept,0.0
+mixed + noisy,0.1,0.0,Medium,0.05,Monitor,Monitor,5.0
+mixed + weak Eve,0.0,0.3,Medium,0.09333333333333334,Monitor,Reject,9.33
+mixed + full Eve,0.0,1.0,Medium,0.26,Reject,Reject,26.0
+attack-heavy + clean,0.0,0.0,Medium,0.0,Accept,Accept,0.0
+attack-heavy + noisy,0.1,0.0,Medium,0.05,Monitor,Monitor,5.0
+attack-heavy + weak Eve,0.0,0.3,Medium,0.09333333333333334,Monitor,Reject,9.33
+attack-heavy + full Eve,0.0,1.0,Medium,0.26,Reject,Reject,26.0
