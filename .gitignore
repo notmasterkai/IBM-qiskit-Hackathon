@@ -1,0 +1,8 @@
+# Dataset files are NOT committed (keep only the instructions)
+data/*
+!data/README.md
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.venv312/
