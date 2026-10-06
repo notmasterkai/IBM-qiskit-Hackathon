@@ -1,0 +1,12 @@
+# Visual theme only: dark navy background, teal (classical / ML) as the main accent.
+# Purple (quantum) and the IBM Plex fonts are applied by the CSS block in app.py.
+[theme]
+base = "dark"
+primaryColor = "#14b8a6"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#111c33"
+textColor = "#e6edf7"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
