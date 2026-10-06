@@ -1,0 +1,9 @@
+# Website dependencies (tested on Python 3.12). Pinned so Streamlit Community Cloud installs the same versions.
+streamlit==1.65.0
+plotly==7.1.0
+qiskit==2.5.2
+qiskit-aer==0.17.2
+scikit-learn==1.9.1
+scipy==1.18.1
+pandas==3.0.6
+numpy==2.5.3
